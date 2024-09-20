@@ -1,0 +1,133 @@
+.cabecalho {
+  font-family: "Righteous", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.pagina {
+  background-color: rgb(21, 21, 37);
+  color: #fff;
+}
+
+.inicio {
+  padding-top: 250px;
+  font-size: 35px;
+}
+
+.barra_lateral {
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(13, 13, 22);
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.barra_lateral a {
+  padding: 6px 8px 6px 16px;
+  font-style: bold;
+  text-decoration: none;
+  text-align: justify;
+  font-size: 20px;
+  color: #b9d6f2;
+  display: block;
+}
+
+.barra_lateral a:active {
+  color: #7a7036;
+}
+
+.barra_lateral a:hover {
+  outline: #7a7036;
+  outline-style: dotted;
+}
+
+.conteudo {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+.conteudo p {
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  padding-bottom: 45px;
+}
+
+.foto_perfil {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+
+img {
+  padding: 1.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.perfil p {
+  padding-bottom: 15px;
+}
+
+section {
+  padding-bottom: 150px;
+}
+
+.foto_carreira {
+  width: 20%;
+  height: 20%;
+}
+
+.foto_formacao {
+  width: 10%;
+  height: 10%;
+}
+
+.formacao p {
+  text-align: center;
+}
+
+.foto_cursos {
+  width: 10%;
+  height: 10%;
+}
+
+.cursos p {
+  text-align: center;
+}
+
+.contato {
+  text-align: center;
+}
+
+.contato a:hover {
+  color: #7a7036;
+}
+
+.rodape {
+  background-color: rgb(13, 13, 22);
+  padding: 20px;
+  text-align: center;
+}
+
+.rodape p {
+  margin-left: 160px;
+}
