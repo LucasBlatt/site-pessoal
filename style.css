@@ -10,8 +10,11 @@
 }
 
 .inicio {
-  padding-top: 250px;
-  font-size: 35px;
+  padding-top: 220px;
+  padding-bottom: 250px;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .barra_lateral {
@@ -45,6 +48,14 @@
 .barra_lateral a:hover {
   outline: #7a7036;
   outline-style: dotted;
+}
+
+.barra_lateral a:target {
+  color: #7a7036;
+}
+
+.barra_lateral.show {
+  color: #7a7036;
 }
 
 .conteudo {
